@@ -383,13 +383,94 @@ html {
 }
 
 @media (max-width: 768px) {
-    
     .navbar {
-        width: 95%;
-        padding: 0 10px;
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        gap: 10px;
     }
+
     .ul-navbar {
-        gap: 15px; 
+        flex-wrap: wrap;
+        gap: 15px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    
+    .li-navbar {
         font-size: 14px;
+    }
+
+    .Home {
+        flex-direction: column-reverse;
+        height: auto;
+        padding-top: 150px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .div-Home {
+        padding: 0 20px;
+        max-width: 100%;
+    }
+
+    .dude {
+        margin-left: 0;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .dude img {
+        width: 250px;
+        height: auto;
+    }
+
+    .Yapping {
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px 20px;
+    }
+    
+    .about-text {
+        font-size: 16px;
+    }
+
+    .Skill-category, .Skill-category2 {
+        min-width: unset;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    
+    .Skills-container {
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .div-Achievement2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .achievement-details {
+        text-align: center;
+    }
+    
+    .badges {
+        justify-content: center;
+    }
+
+    .sosmed {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .li-sosmed {
+        align-items: center;
+        text-align: center;
     }
 }
